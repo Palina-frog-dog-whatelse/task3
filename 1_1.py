@@ -8,6 +8,6 @@ for i in range(1, n):
 for i in range (imin + 1, n):
     if (array[i] >= array[imax]):
         imax = i
-for i in range (imax + 1, n):
+for i in range (imax, n):
     array[i] = 0
 print(array)
